@@ -1,0 +1,76 @@
+.topbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  gap: 1rem;
+  padding: 1.1rem;
+  width: 100%;
+  justify-content: center;
+  background-color: #ff6200;
+  align-items: center;
+  z-index: 10;
+}
+
+.topbar li {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+.img {
+  width: 3.5rem;
+  margin-right: 5rem;
+}
+
+.AgenciaConta {
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  padding-top: 0.3rem;
+  background-color: #fff;
+  margin-left: 4rem;
+  width: 10rem;
+  justify-content: center;
+}
+
+.AgenciaConta input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 0.75rem;
+  width: 4rem;
+  height: 2rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+.AgenciaConta p {
+  display: block;
+  color: rgb(151, 148, 148);
+  margin-top: 0.5rem;
+}
+
+.topbar button {
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  height: 2.3rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.topbar button :hover {
+  transform: scale(1.3);
+}
+
+.AbraConta li {
+  border: 2px solid #fff;
+  padding: 0.75rem;
+  border-radius: 8px;
+  transition: transform;
+  cursor: pointer;
+}
+
+.AbraConta:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,104 @@
+.image-text-container {
+  margin-top: 5.5rem;
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+.background-image {
+  display: block;
+  width: 100%;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 30%;
+  left: 23%;
+  text-align: center;
+  color: #262626;
+  font-family: "Montserrat", sans-serif;
+}
+
+.overlay-text h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.overlay-text p {
+  font-size: 1.2rem;
+  margin: 0.6rem 0 0;
+}
+
+.overlay-text button {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  background-color: #ff6200;
+  border: 2px solid #ff6200;
+  padding: 0.75rem;
+  border-radius: 8px;
+  transition: transform;
+  cursor: pointer;
+  color: #fff;
+}
+
+.overlay-text button:hover {
+  transform: scale(1.1);
+}
+
+.beneficios_text h2 {
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.beneficios_lista {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.beneficios_lista li {
+  border: 1px solid #797878;
+  border-radius: 8px;
+  color: #262626;
+  background-color: #fff;
+  padding: 2rem;
+  margin: 0 2rem;
+}
+
+.beneficios_lista h1 {
+  color: black;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.serviços_text h2 {
+  padding-top: 3rem;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.serviços_lista {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 3rem;
+}
+
+.serviços_lista li {
+  border: 1px solid #797878;
+  border-radius: 8px;
+  color: #262626;
+  background-color: #fff;
+  padding: 2rem;
+  margin: 0 2rem;
+}
+
+.lista_padrao {
+  display: flex;
+  flex-direction: column;
+}
