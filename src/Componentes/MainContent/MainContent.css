@@ -61,6 +61,7 @@
 }
 
 .beneficios_lista li {
+  max-width: 230px;
   border: 1px solid #797878;
   border-radius: 8px;
   color: #262626;
@@ -81,6 +82,7 @@
   text-align: center;
   font-size: 1.3rem;
 }
+
 .serviços_lista {
   display: flex;
   list-style-type: none;
@@ -90,15 +92,32 @@
 }
 
 .serviços_lista li {
-  border: 1px solid #797878;
   border-radius: 8px;
-  color: #262626;
-  background-color: #fff;
-  padding: 2rem;
-  margin: 0 2rem;
+  border: 2px solid #797878;
+  max-width: fit-content;
 }
 
-.lista_padrao {
-  display: flex;
-  flex-direction: column;
+.lista_padrao img {
+  display: block;
+  width: 100%;
+  max-width: 21rem;
+  height: 14rem;
+  border-top: 8px;
+  object-fit: cover;
+}
+
+.lista_padrao h1 {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.lista_padrao p {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 1rem;
+  color: #797878;
+  font-style: italic;
+  font-weight: 100;
 }

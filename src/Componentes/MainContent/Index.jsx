@@ -1,6 +1,10 @@
 import "./MainContent.css";
 import Banner from "./assets/Banner.png";
 import { ChevronRight } from "lucide-react";
+import Serviço1 from "./assets/Serviço1.jpg";
+import Serviço2 from "./assets/Serviço2.jpg";
+import Serviço3 from "./assets/Serviço3.jpg";
+import Serviço4 from "./assets/Serviço4.avif";
 
 const MainContent = () => {
   return (
@@ -53,37 +57,37 @@ const MainContent = () => {
         </div>
         <div className="serviços_lista">
           <li className="lista_padrao">
-            <img src="" alt="" />
+            <img src={Serviço1} />
             <h1>Simular compra futura</h1>
             <p>
-              Acesse no app CardBank: Produtos{" "}
-              <ChevronRight className="ChevronRight" /> Cartões <ChevronRight />{" "}
-              Gestão do Cartão - Simular Compra Futura
+              Acesse no app CardBank:
+              <ChevronRight className="ChevronRight" /> Serviços{" "}
+              <ChevronRight /> Cartões <ChevronRight /> Simular Compra
             </p>
           </li>
-          <li>
+          <li className="lista_padrao">
+            <img src={Serviço2} alt="" />
             <h1>Cartão virtual</h1>
             <p>
-              Acesse no app Cardbank: Produtos <ChevronRight /> Cartões{" "}
+              Acesse no app Cardbank: Produtos <ChevronRight /> Cartões
               <ChevronRight /> Cartão Virtual
             </p>
           </li>
-          <li>
+          <li className="lista_padrao">
+            <img src={Serviço3} alt="" />
             <h1>Carteira digital</h1>
             <p>
-              Acesse no app Itaú: Serviços <ChevronRight /> Cartões{" "}
+              Acesse no app Cardbank: Serviços <ChevronRight /> Cartões
               <ChevronRight /> Carteiras Digitais
             </p>
           </li>
-          <li>
-            {" "}
-            <h1>
-              Pague contas
-              <p>
-                Acesse no app Itaú: Serviços <ChevronRight /> Cartões{" "}
-                <ChevronRight /> Pague Contas
-              </p>
-            </h1>
+          <li className="lista_padrao">
+            <img src={Serviço4} alt="" />
+            <h1>Pague contas</h1>
+            <p>
+              Acesse no app Cardbank: Serviços <ChevronRight /> Cartões
+              <ChevronRight /> Pague Contas
+            </p>
           </li>
         </div>
       </section>
