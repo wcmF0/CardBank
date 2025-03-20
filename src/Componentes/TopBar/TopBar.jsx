@@ -1,6 +1,6 @@
 import "./TopBar.css";
 import ArrowRigth from "./assets/arrow-right.svg";
-import CardBankLogo from "./assets/CardBankLogo.png";
+import CardBankLogo from "../../assets/CardBankLogo.png";
 
 const TopBar = () => {
   return (
