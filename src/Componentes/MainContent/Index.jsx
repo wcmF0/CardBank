@@ -5,6 +5,17 @@ import Serviço1 from "./assets/Serviço1.jpg";
 import Serviço2 from "./assets/Serviço2.jpg";
 import Serviço3 from "./assets/Serviço3.jpg";
 import Serviço4 from "./assets/Serviço4.avif";
+import { CalendarCheck2 } from "lucide-react";
+import { ReceiptText } from "lucide-react";
+import { Smartphone } from "lucide-react";
+import { Lock } from "lucide-react";
+import { CreditCard } from "lucide-react";
+import { Calendar } from "lucide-react";
+import { TabletSmartphone } from "lucide-react";
+import { WifiHigh } from "lucide-react";
+import { TriangleAlert } from "lucide-react";
+import { GripHorizontal } from "lucide-react";
+import { Landmark } from "lucide-react";
 
 const MainContent = () => {
   return (
@@ -64,7 +75,34 @@ const MainContent = () => {
               <ChevronRight className="ChevronRight" /> Serviços{" "}
               <ChevronRight /> Cartões <ChevronRight /> Simular Compra
             </p>
+            <div className="lista_figura">
+              <div className="lista_figura2">
+                <p>
+                  <CalendarCheck2 />
+                </p>
+                <p> Tenha maior clareza do seu poder de compra</p>
+              </div>
+              <div className="lista_figura2">
+                <p>
+                  <ReceiptText />
+                </p>
+                <p>Simule transações acima do seu limite</p>
+              </div>
+              <div className="lista_figura2">
+                <p>
+                  <Smartphone />
+                </p>
+                <p>Jornada 100% digital</p>
+              </div>
+              <div className="lista_figura2">
+                <p>
+                  <Lock />
+                </p>
+                <p>Reforce a segurança das suas operações</p>
+              </div>
+            </div>
           </li>
+
           <li className="lista_padrao">
             <img src={Serviço2} alt="" />
             <h1>Cartão virtual</h1>
@@ -72,7 +110,28 @@ const MainContent = () => {
               Acesse no app Cardbank: Produtos <ChevronRight /> Cartões
               <ChevronRight /> Cartão Virtual
             </p>
+            <div className="lista_figura">
+              <div className="lista_figura2">
+                <p>
+                  <Lock />
+                </p>
+                <p>Camada extra de segurança para compras online</p>
+              </div>
+              <div className="lista_figura2">
+                <p>
+                  <CreditCard />
+                </p>
+                <p>Proteja os dados do seu cartão físico</p>
+              </div>
+              <div className="lista_figura2">
+                <p>
+                  <Calendar />
+                </p>
+                <p>Utilize de forma recorrente ou pontual</p>
+              </div>
+            </div>
           </li>
+
           <li className="lista_padrao">
             <img src={Serviço3} alt="" />
             <h1>Carteira digital</h1>
@@ -80,7 +139,34 @@ const MainContent = () => {
               Acesse no app Cardbank: Serviços <ChevronRight /> Cartões
               <ChevronRight /> Carteiras Digitais
             </p>
+            <div className="lista_figura">
+              <div className="lista_figura2">
+                <p>
+                  <TabletSmartphone />
+                </p>
+                <p>Seus cartões de débito e crédito no celular</p>
+              </div>
+              <div className="lista_figura2">
+                <p>
+                  <WifiHigh />
+                </p>
+                <p>Pagamento por aproximação</p>
+              </div>
+              <div className="lista_figura2">
+                <p>
+                  <Smartphone />
+                </p>
+                <p>Saia sem precisar do cartão físico</p>
+              </div>
+              <div className="lista_figura2">
+                <p>
+                  <TriangleAlert />
+                </p>
+                <p>Evite o golpe da troca de cartão</p>
+              </div>
+            </div>
           </li>
+
           <li className="lista_padrao">
             <img src={Serviço4} alt="" />
             <h1>Pague contas</h1>
@@ -88,6 +174,32 @@ const MainContent = () => {
               Acesse no app Cardbank: Serviços <ChevronRight /> Cartões
               <ChevronRight /> Pague Contas
             </p>
+            <div className="lista_figura">
+              <div className="lista_figura2">
+                <p>
+                  <ReceiptText />
+                </p>
+                <p>Concentre e gerencie contas numa só fatura</p>
+              </div>
+              <div className="lista_figura2">
+                <p>
+                  <CalendarCheck2 />
+                </p>
+                <p>Extensão de prazo para pagar boletos</p>
+              </div>
+              <div className="lista_figura2">
+                <p>
+                  <GripHorizontal />
+                </p>
+                <p>Ganhe até 40 dias extras de vencimento</p>
+              </div>
+              <div className="lista_figura2">
+                <p>
+                  <Landmark />
+                </p>
+                <p>Pague boletos de forma parcelada</p>
+              </div>
+            </div>
           </li>
         </div>
       </section>

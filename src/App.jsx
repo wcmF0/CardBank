@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./Componentes/Footer";
 import MainContent from "./Componentes/MainContent";
 import TopBar from "./Componentes/TopBar";
 
@@ -11,6 +12,9 @@ function App() {
       <div>
         <MainContent />
       </div>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

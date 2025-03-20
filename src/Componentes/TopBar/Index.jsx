@@ -6,13 +6,13 @@ const TopBar = () => {
   return (
     <header>
       <ul className="topbar">
-        <li>
+        <li className="hover-effect">
           <img className="img" src={CardBankLogo} alt="Logo do CardBank" />
         </li>
-        <li>Para você</li>
-        <li>Para empresas</li>
-        <li>Ajuda</li>
-        <li>Busca</li>
+        <li className="hover-effect">Para você</li>
+        <li className="hover-effect">Para empresas</li>
+        <li className="hover-effect">Ajuda</li>
+        <li className="hover-effect">Busca</li>
         <li>
           <div className="AgenciaConta">
             <input type="text" maxLength={4} placeholder="Agência" />

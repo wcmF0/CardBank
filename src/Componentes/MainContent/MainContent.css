@@ -8,12 +8,15 @@
 .background-image {
   display: block;
   width: 100%;
+
+  object-fit: cover;
 }
 
 .overlay-text {
   position: absolute;
-  top: 30%;
-  left: 23%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-110%, -50%);
   text-align: center;
   color: #262626;
   font-family: "Montserrat", sans-serif;
@@ -117,7 +120,20 @@
   max-width: 300px;
   margin: 0 auto;
   margin-top: 1rem;
-  color: #797878;
+  color: black;
   font-style: italic;
   font-weight: 100;
+  font-size: 1rem;
+}
+
+.lista_figura p {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin: 0.1rem;
+  margin-top: 1rem;
+}
+
+.lista_figura2 {
+  display: flex;
 }
