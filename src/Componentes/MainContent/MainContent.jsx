@@ -70,11 +70,13 @@ const MainContent = () => {
           <li className="lista_padrao">
             <img src={Serviço1} />
             <h1>Simular compra futura</h1>
-            <p>
-              Acesse no app CardBank:
-              <ChevronRight className="ChevronRight" /> Serviços{" "}
-              <ChevronRight /> Cartões <ChevronRight /> Simular Compra
-            </p>
+            <p>Acesse no app CardBank:</p>
+            <div className="teste">
+              <p>
+                Serviços <ChevronRight /> Cartões <ChevronRight /> Simular
+                Compra
+              </p>
+            </div>
             <div className="lista_figura">
               <div className="lista_figura2">
                 <p>
@@ -106,10 +108,13 @@ const MainContent = () => {
           <li className="lista_padrao">
             <img src={Serviço2} alt="" />
             <h1>Cartão virtual</h1>
-            <p>
-              Acesse no app Cardbank: Produtos <ChevronRight /> Cartões
-              <ChevronRight /> Cartão Virtual
-            </p>
+            <p>Acesse no app Cardbank:</p>
+            <div className="teste">
+              <p>
+                Produtos <ChevronRight /> Cartões
+                <ChevronRight /> Cartão Virtual
+              </p>
+            </div>
             <div className="lista_figura">
               <div className="lista_figura2">
                 <p>
@@ -135,10 +140,13 @@ const MainContent = () => {
           <li className="lista_padrao">
             <img src={Serviço3} alt="" />
             <h1>Carteira digital</h1>
-            <p>
-              Acesse no app Cardbank: Serviços <ChevronRight /> Cartões
-              <ChevronRight /> Carteiras Digitais
-            </p>
+            <p>Acesse no app Cardbank:</p>
+            <div className="teste">
+              <p>
+                Serviços <ChevronRight /> Cartões
+                <ChevronRight /> Carteiras Digitais
+              </p>
+            </div>
             <div className="lista_figura">
               <div className="lista_figura2">
                 <p>
@@ -170,10 +178,13 @@ const MainContent = () => {
           <li className="lista_padrao">
             <img src={Serviço4} alt="" />
             <h1>Pague contas</h1>
-            <p>
-              Acesse no app Cardbank: Serviços <ChevronRight /> Cartões
-              <ChevronRight /> Pague Contas
-            </p>
+            <p>Acesse no app Cardbank:</p>
+            <div className="teste">
+              <p>
+                Serviços <ChevronRight /> Cartões
+                <ChevronRight /> Pague Contas
+              </p>
+            </div>
             <div className="lista_figura">
               <div className="lista_figura2">
                 <p>

@@ -137,3 +137,8 @@
 .lista_figura2 {
   display: flex;
 }
+
+.teste p {
+  display: flex;
+  align-items: center;
+}
