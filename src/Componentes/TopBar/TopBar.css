@@ -11,81 +11,130 @@
   z-index: 10;
 }
 
-.topbar li {
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 500;
-  font-family: "Montserrat", sans-serif;
-  cursor: pointer;
-  transition: all 0.3s ease;
+@media (max-width: 1024px) {
+  .topbar {
+    width: 100%;
+    max-width: none;
+  }
 }
 
-.topbar li.hover-effect {
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 500;
-  font-family: "Montserrat", sans-serif;
-  cursor: pointer;
-  transition: all 0.3s ease;
+@media (max-width: 768px) {
+  .hover-effect.para-voce,
+  .hover-effect.empresas,
+  .hover-effect.ajuda,
+  .hover-effect.busca {
+    display: none;
+  }
 }
 
-.topbar li.hover-effect:hover {
-  transform: scale(1.1);
-  color: #ffd700;
-}
-.img {
-  width: 3.5rem;
-  margin-right: 5rem;
+header {
+  width: 100%;
 }
 
-.AgenciaConta {
-  display: flex;
-  flex-direction: row;
-  border-radius: 8px;
-  padding-top: 0.3rem;
-  background-color: #fff;
-  margin-left: 4rem;
-  width: 10rem;
-  justify-content: center;
+@media (max-width: 425px) {
+  .img {
+    width: 2.5rem;
+  }
+
+  .AgenciaConta {
+    width: 8rem;
+    gap: 0.3rem;
+  }
+
+  .AgenciaConta input {
+    font-size: 0.7rem;
+    width: 3rem;
+    height: 1.8rem;
+  }
+
+  .AgenciaConta p {
+    font-size: 0.6rem;
+    margin-top: 0.3rem;
+  }
+
+  .topbar button {
+    height: 1.8rem;
+    border-radius: 6px;
+  }
+
+  .topbar li {
+    font-size: 0.9rem;
+  }
+
+  .AbraConta {
+    display: none;
+  }
 }
 
-.AgenciaConta input {
-  border: none;
-  outline: none;
-  background-color: transparent;
-  font-size: 0.75rem;
-  width: 4rem;
-  height: 2rem;
-  font-size: 0.9rem;
-  text-align: center;
-}
-.AgenciaConta p {
-  display: block;
-  color: rgb(151, 148, 148);
-  margin-top: 0.5rem;
+@media (max-width: 375px) {
+  .topbar {
+    padding: 0.5rem;
+    gap: 0.5rem;
+  }
+
+  .img {
+    width: 2rem;
+  }
+
+  .AgenciaConta {
+    width: 7rem;
+    gap: 0.2rem;
+  }
+
+  .AgenciaConta input {
+    font-size: 0.6rem;
+    width: 2.5rem;
+    height: 1.5rem;
+  }
+
+  .AgenciaConta p {
+    font-size: 0.5rem;
+    margin-top: 0.2rem;
+  }
+
+  .topbar button {
+    height: 1.5rem;
+    border-radius: 5px;
+  }
+
+  .topbar li {
+    font-size: 0.8rem;
+  }
 }
 
-.topbar button {
-  background-color: #fff;
-  border: none;
-  border-radius: 8px;
-  height: 2.3rem;
-  cursor: pointer;
-  transition: transform 0.2s ease;
-}
+@media (max-width: 320px) {
+  .topbar {
+    padding: 0.4rem;
+    gap: 0.4rem;
+  }
 
-.topbar button :hover {
-  transform: scale(1.3);
-}
+  .img {
+    width: 1.8rem;
+  }
 
-.AbraConta li {
-  border: 2px solid #fff;
-  padding: 0.75rem;
-  border-radius: 8px;
-  transition: transform;
-  cursor: pointer;
-}
+  .AgenciaConta {
+    width: 6rem;
+    gap: 0.2rem;
+  }
 
-.AbraConta:hover {
-  transform: scale(1.1);
+  .AgenciaConta input {
+    font-size: 0.5rem;
+    width: 2rem;
+    height: 1.3rem;
+  }
+
+  .AgenciaConta p {
+    font-size: 0.4rem;
+    margin-top: 0.1rem;
+  }
+
+  .topbar button {
+    height: 1.7rem;
+    border-radius: 4px;
+    margin-right: 1rem;
+  }
+
+  .topbar li {
+    font-size: 0.7rem;
+  }
 }

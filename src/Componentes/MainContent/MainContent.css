@@ -8,7 +8,6 @@
 .background-image {
   display: block;
   width: 100%;
-
   object-fit: cover;
 }
 
@@ -141,4 +140,100 @@
 .teste p {
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  .image-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .overlay-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 1rem;
+    transform: none;
+    top: 5rem;
+  }
+
+  .overlay-text h3 {
+    font-size: 1rem;
+  }
+
+  .overlay-text p {
+    font-size: 1rem;
+  }
+
+  .overlay-text button {
+    font-size: 1rem;
+  }
+
+  .beneficios_lista {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+
+  .beneficios_lista li {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .serviços_lista {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+    align-items: center;
+  }
+
+  .lista_padrao img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .background-image {
+    visibility: hidden;
+    transform: scale(1.2);
+  }
+  .overlay-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 4rem;
+    transform: none;
+    top: 0.8rem;
+  }
+
+  .overlay-text h3 {
+    font-size: 1rem;
+    color: black;
+    font-weight: 600;
+  }
+
+  .overlay-text p {
+    font-size: 0.75rem;
+    color: black;
+    font-weight: 600;
+  }
+
+  .overlay-text button {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .overlay-text {
+    left: 3rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .overlay-text {
+    left: 1.5rem;
+    top: 0rem;
+  }
 }
